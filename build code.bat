@@ -1,1 +1,1 @@
-tweego -t -o "Miss-Translated.html" "miss-translated"
+tweego -s "El Cordero" -o "Miss-translated.html" "miss-translated"

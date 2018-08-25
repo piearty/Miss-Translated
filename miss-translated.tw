@@ -1,0 +1,123 @@
+:: StorySettings
+ifid:d89b846d-768c-49ad-bc39-f1a995042c48
+zoom:1
+
+
+:: StoryTitle
+Miss-Translated
+
+
+:: Story Stylesheet [stylesheet]
+/* twine-user-stylesheet #1: "Story Stylesheet" */
+
+/* Needed for TranslateLinks widget - START */
+.left {
+	float: left;
+    width: 48%;
+  	padding-right: 10px;
+	margin-bottom: 60px;
+	margin-top: 30px;
+}
+.right {
+	float: right;
+	width: 49%
+  	margin-bottom: 60px;
+	margin-top: 30px;
+}
+.hidden {
+	visibility: hidden;
+}
+.gone {
+	display: none;
+}
+/* Needed for TranslateLinks widget - END */
+
+
+div#hovercode span#default {
+  display: inline;
+}
+
+div#hovercode:hover span#default {
+  display: none;
+}
+
+div#hovercode span#hover {
+  display: none;
+}
+
+div#hovercode:hover span#hover {
+  display: inline;
+}
+
+
+/*! <<replacelink>> macro set for SugarCube 2.x */
+.revision-span-in {
+	opacity: 0;
+}
+.revision-span:not(.revision-span-out) {
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+.revision-span-out {
+	position: absolute;
+	opacity: 0;
+}'
+
+.hidden a {
+    color: transparent;
+}
+
+
+:: Aprendiendo
+<<nobr>><<set $spanish to ["Español es la única lengua del mundo\n que no puedo aprender.", "Como la belleza,\n debería haber nacido con ella.\n", "Debería haber seguido el hilo\n a través del dédalo en mis huesos.\n", "En alguna parte, la debería haber\n descubrido como conquistadora."]>>
+
+<<set $ogTranslation to ["Spanish, the one language in the world\n that I didn’t have to learn:", "Her beauty\n was born with me;\n", "she’s strung like thread\n through the fingers of my past.\n", "A part of me, planted deep, beyond\n the discovery of any conqueror."]>>
+
+<<set $newTranslation to ["Spanish is the one language in the world\n that I can’t learn.", "Like beauty,\n I should have been born with her.\n", "I should have followed the thread\n through the maze in my bones.\n", "Somewhere, I should have\n discovered her like a conqueror."]>><</nobr>>
+Aprendiendo
+<<TranslateLinks $spanish $ogTranslation $newTranslation>>
+
+
+:: Widgets [widget nobr]
+<<widget "TranslateLinks">>
+	<<if ($args[0].length === $args[1].length) && ($args[1].length === $args[2].length)>>
+		<div class="left">
+		<<capture _esp, _ogtrans>>
+			<<for _idx = 0; _idx < $args[0].length; _idx++>>
+				<<set _esp = "#esp" + _idx>>
+				<<set _ogtrans = "#ogtrans" + _idx>>
+				<span @id="'esp'+_idx">
+					<<link $args[0][_idx]>>
+						<<toggleclass _ogtrans "gone">>
+						<<toggleclass _esp "hidden">>
+					<</link>>
+				</span><br>
+			<</for>>
+			<</capture>>
+		</div><div class="right">
+			<<capture _ogtransh, _newtransh>>
+			<<for _idx = 0; _idx < $args[0].length; _idx++>>
+				<<set _ogtrans = "ogtrans" + _idx>>
+				<<set _ogtransh = "#" + _ogtrans>>
+				<<set _newtrans = "newtrans" + _idx>>
+				<<set _newtransh = "#" + _newtrans>>
+				<span @id="_ogtrans" class="gone">
+					<<link $args[1][_idx]>>
+						<<toggleclass _ogtransh "gone">>
+						<<toggleclass _newtransh "gone">>
+					<</link>>
+				</span><span @id="_newtrans" class="gone">
+					<<link $args[2][_idx]>>
+						<<toggleclass _ogtransh "gone">>
+						<<toggleclass _newtransh "gone">>
+					<</link>>
+				</span><br>
+			<</for>>
+			<</capture>>
+		</div>
+	<<else>>
+		Error: All arrays must be the same length.  Array lengths were <<= $args[0].length>>, <<= $args[1].length>>, and <<$args[2].length>>
+	<</if>>
+<</widget>>
+
+
