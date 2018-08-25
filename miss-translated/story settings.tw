@@ -66,3 +66,6 @@ div#hovercode:hover span#hover {
 .hidden a {
     color: transparent;
 }
+
+::Story Javascript [script]
+UIBar.destroy();

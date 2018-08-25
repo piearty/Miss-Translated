@@ -1,9 +1,9 @@
 ::El Cordero
 <<nobr>>
-<<set $spanish to ["La AP reporte que", "<br>", "la porcentaje de evangélicos<br>que apoyarían", "<br>", "a un político que comitiera<br>un acto inmortal", "subió de 30% en 2011<br>a 72% en 2016.", "<br>", "Aquí está Baal.", "Aquí está su ídolo falso:", "<br>", "Es lo que pasa cuando<br>se pone un hombre<br>en el lugar de díos."]>>
+<<set $spanish to ["El Cordero<br><br>", "La AP reporte que<br><br>", "la porcentaje de evangélicos<br>que apoyarían<br><br>", "a un político que comitiera<br>un acto inmortal<br>", "subió de 30% en 2011<br>a 72% en 2016.<br><br>", "Aquí está Baal.<br>", "Aquí está su ídolo falso:<br><br>", "Es lo que pasa cuando<br>se pone un hombre<br>en el lugar de díos."]>>
 
-<<set $ogTranslation to ["Who let the cold air in?", "<br>", "Who went through the house<br>and inverted the crucifixes?", "<br>", "Whose hand unmakes<br>the good of the kitchen,", "the strong stove songs and the<br>dove nourishment?", "<br>", "Who bridal-blots the bedspreads?", "Where are my children?", "<br>", "My God, my god,<br>how can I cleave so close to you<br>and find myself so far away?"]>>
+<<set $ogTranslation to ["Roy Moore<br><br>", "Who let the cold air in?<br><br>", "Who went through the house<br>and inverted the crucifixes?<br><br>", "Whose hand unmakes<br>the good of the kitchen,<br>", "the strong stove songs and the<br>dove nourishment?<br><br>", "Who bridal-blots the bedspreads?<br>", "Where are my children?<br><br>", "My God, my god,<br>how can I cleave so close to you<br>and find myself so far away?"]>>
 
-<<set $newTranslation to ["AP reported that", "<br>", "the percentage of evangelicals<br>that would support", "<br>", "a politician who would commit<br>an immoral act", "rose from 30% in 2011<br>to 72% in 2016.", "<br>", "Here is Baal.", "Here is your false idol:", "<br>", "It is what happens when<br>you put a man<br>in the place of a god."]>>
+<<set $newTranslation to ["The Lamb<br><br>", "AP reported that<br><br>", "the percentage of evangelicals<br>that would support<br><br>", "a politician who would commit<br>an immoral act<br>", "rose from 30% in 2011<br>to 72% in 2016.<br><br>", "Here is Baal.<br>", "Here is your false idol:<br><br>", "It is what happens when<br>you put a man<br>in the place of a god."]>>
 <</nobr>>
 <<TranslateLinks $spanish $ogTranslation $newTranslation>>

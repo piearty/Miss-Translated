@@ -1,7 +1,7 @@
 :: TranslateLinks [widget nobr]
 <<widget "TranslateLinks">>
 	<<if ($args[0].length === $args[1].length) && ($args[1].length === $args[2].length)>>
-		<div class="left">
+		<div style="float: left">
 		<<capture _esp, _ogtrans>>
 			<<for _idx = 0; _idx < $args[0].length; _idx++>>
 				<<set _esp = "#esp" + _idx>>
@@ -11,10 +11,10 @@
 						<<toggleclass _ogtrans "hidden">>
 						<<toggleclass _esp "hidden">>
 					<</link>>
-				</span><br>
+				</span>
 			<</for>>
 			<</capture>>
-		</div><div class="right">
+		</div><div style="float: right">
 			<<capture _ogtransh, _newtransh>>
 			<<for _idx = 0; _idx < $args[0].length; _idx++>>
 				<<set _ogtrans = "ogtrans" + _idx>>
@@ -31,7 +31,7 @@
 						<<toggleclass _ogtransh "gone">>
 						<<toggleclass _newtransh "gone">>
 					<</link>>
-				</span><br>
+				</span>
 			<</for>>
 			<</capture>>
 		</div>
