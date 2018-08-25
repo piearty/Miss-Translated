@@ -1,0 +1,37 @@
+:: Cycling Link widget [widget]
+<<nobr>>
+<<widget "cyclinglink">>
+	<<if $args[1]>> 
+		<<set _values to Array.from($args), 
+    		_count to 0, 
+    		_i to 0, 
+    		$choice to _values[0]>> 
+
+        <<link @@#word;$choice@@ >> 
+            <<set _count++, 
+                _i to _count % _values.length, 
+                $choice to _values[_i]>>
+            <<replace "#word">>$choice<</replace>> 
+        <</link>>
+    <</if>>
+<</widget>>
+<</nobr>>
+
+
+:: Link clicker widget [widget]
+<<nobr>>
+<<widget "linkclicker">>
+    <<set _text = $args[0]>>
+    <<set _id = $args[1]>>
+    <<set _content = $args[2]>>
+    <<if _text && _id && _content>>
+        <<set _linkId = "#link" + random(0x10000, 0xFFFFF).toString(16)>>
+        <<capture _id, _content, _linkId>>
+            <<link `"@@" + _linkId + ";" + _text + "@@"`>>
+                <<replace _linkId t8n>><br/><br/><</replace>>
+                <<replace _id>>_content<</replace>>
+            <</link>>
+        <</capture>>
+    <</if>>
+<</widget>>
+<</nobr>>
