@@ -182,7 +182,7 @@ UIBar.destroy();</script><tw-passagedata pid="1" name="Aprendiendo" tags="" posi
 &lt;&lt;/nobr&gt;&gt;
 &lt;&lt;TranslateLinks $spanish $ogTranslation $newTranslation&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="TranslateLinks" tags="widget nobr" position="475,100">&lt;&lt;widget &quot;TranslateLinks&quot;&gt;&gt;
 	&lt;&lt;if ($args[0].length === $args[1].length) &amp;&amp; ($args[1].length === $args[2].length)&gt;&gt;
-		&lt;div style=&quot;float: left&quot;&gt;
+		&lt;div style=&quot;float: left; text-align: left&quot;&gt;
 		&lt;&lt;capture _esp, _ogtrans&gt;&gt;
 			&lt;&lt;for _idx = 0; _idx &lt; $args[0].length; _idx++&gt;&gt;
 				&lt;&lt;set _esp = &quot;#esp&quot; + _idx&gt;&gt;
@@ -195,7 +195,7 @@ UIBar.destroy();</script><tw-passagedata pid="1" name="Aprendiendo" tags="" posi
 				&lt;/span&gt;
 			&lt;&lt;/for&gt;&gt;
 			&lt;&lt;/capture&gt;&gt;
-		&lt;/div&gt;&lt;div style=&quot;float: right&quot;&gt;
+		&lt;/div&gt;&lt;div style=&quot;float: right; text-align: right&quot;&gt;
 			&lt;&lt;capture _ogtransh, _newtransh&gt;&gt;
 			&lt;&lt;for _idx = 0; _idx &lt; $args[0].length; _idx++&gt;&gt;
 				&lt;&lt;set _ogtrans = &quot;ogtrans&quot; + _idx&gt;&gt;

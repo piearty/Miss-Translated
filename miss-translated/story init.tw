@@ -1,0 +1,3 @@
+<<set $poems = Story.lookup("tags", "poem").map(function (p) { return p.title; })>>
+
+<<set $poemslist = $poems.sort()>>
