@@ -39,3 +39,44 @@
 		Error: All arrays must be the same length.  Array lengths were <<= $args[0].length>>, <<= $args[1].length>>, and <<$args[2].length>>
 	<</if>>
 <</widget>>
+
+<<widget "TranslateLinksRight">>
+	<<if ($args[0].length === $args[1].length) && ($args[1].length === $args[2].length)>>
+		<div class="right">
+		<<capture _esp, _ogtrans>>
+			<<for _idx = 0; _idx < $args[0].length; _idx++>>
+				<<set _esp = "#esp" + _idx>>
+				<<set _ogtrans = "#ogtrans" + _idx>>
+				<span @id="'esp'+_idx">
+					<<link $args[0][_idx]>>
+						<<toggleclass _ogtrans "hidden">>
+						<<toggleclass _esp "hidden">>
+					<</link>>
+				</span>
+			<</for>>
+			<</capture>>
+		</div><div class="left">
+			<<capture _ogtransh, _newtransh>>
+			<<for _idx = 0; _idx < $args[0].length; _idx++>>
+				<<set _ogtrans = "ogtrans" + _idx>>
+				<<set _ogtransh = "#" + _ogtrans>>
+				<<set _newtrans = "newtrans" + _idx>>
+				<<set _newtransh = "#" + _newtrans>>
+				<span @id="_ogtrans" class="hidden">
+					<<link $args[1][_idx]>>
+						<<toggleclass _ogtransh "gone">>
+						<<toggleclass _newtransh "gone">>
+					<</link>>
+				</span><span @id="_newtrans" class="gone">
+					<<link $args[2][_idx]>>
+						<<toggleclass _ogtransh "gone">>
+						<<toggleclass _newtransh "gone">>
+					<</link>>
+				</span>
+			<</for>>
+			<</capture>>
+		</div>
+	<<else>>
+		Error: All arrays must be the same length.  Array lengths were <<= $args[0].length>>, <<= $args[1].length>>, and <<$args[2].length>>
+	<</if>>
+<</widget>>

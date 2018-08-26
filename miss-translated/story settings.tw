@@ -17,12 +17,14 @@ Miss-Translated
   	padding-right: 10px;
 	margin-bottom: 60px;
 	margin-top: 30px;
+	text-align: left;
 }
 .right {
 	float: right;
 	width: 49%;
   	margin-bottom: 60px;
 	margin-top: 30px;
+	text-align: right;
 }
 .hidden {
 	visibility: hidden;

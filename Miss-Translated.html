@@ -102,7 +102,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<div id="store-area" hidden><tw-storydata name="Miss-Translated" startnode="6" creator="Tweego" creator-version="1.3.0" ifid="D89B846D-768C-49AD-BC39-F1A995042C48" zoom="1" format="SugarCube" format-version="2.27.0" options="debug" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "Story Stylesheet" */
+	<div id="store-area" hidden><tw-storydata name="Miss-Translated" startnode="7" creator="Tweego" creator-version="1.3.0" ifid="D89B846D-768C-49AD-BC39-F1A995042C48" zoom="1" format="SugarCube" format-version="2.27.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "Story Stylesheet" */
 /* twine-user-stylesheet #1: "Story Stylesheet" */
 
 /* Needed for TranslateLinks widget - START */
@@ -112,12 +112,14 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
   	padding-right: 10px;
 	margin-bottom: 60px;
 	margin-top: 30px;
+	text-align: left;
 }
 .right {
 	float: right;
 	width: 49%;
   	margin-bottom: 60px;
 	margin-top: 30px;
+	text-align: right;
 }
 .hidden {
 	visibility: hidden;
@@ -197,7 +199,13 @@ UIBar.destroy();</script><tw-passagedata pid="1" name="PassageFooter" tags="" po
 
 &lt;&lt;set $newTranslation to [&quot;The prickly pear&lt;br&gt;&lt;br&gt;&quot;, &quot;We children eat fried chicken from the&lt;br&gt;church of fat, our favorite.&lt;br&gt;&lt;br&gt;&quot;, &quot;My grandmother watches American football every&lt;br&gt;week like mass.&lt;br&gt;&lt;br&gt;&quot;, &quot;In my grandfather&#39;s favorite restaurant,&lt;br&gt;I always order the hamburger. &quot;, &quot;I don&#39;t know how&lt;br&gt;I ought to be darker.&lt;br&gt;&lt;br&gt;&quot;, &quot;Even the children feel the empty space&lt;br&gt;between offerings. &quot;, &quot;I can see that nobody else&lt;br&gt;celebrates like we do.&lt;br&gt;&lt;br&gt;&quot;, &quot;I watch my mother, trying to tell us&lt;br&gt;our history, candle by candle. &quot;, &quot;Each point&lt;br&gt;of light is like a faraway star.&lt;br&gt;&lt;br&gt;&quot;, &quot;To be chicana is to pardon my parents&lt;br&gt;who cannot tell me who I am. &quot;, &quot;It&#39;s to&lt;br&gt;pardon my grandparents for their shame.&lt;br&gt;&lt;br&gt;&quot;, &quot;My family sings me birthday songs on my&lt;br&gt;birthday.&lt;br&gt;&lt;br&gt;&quot;, &quot;They get the words wrong.&quot;]&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;
-&lt;&lt;TranslateLinks $spanish $ogTranslation $newTranslation&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="Start" tags="" position="725,100">!Miss Translated
+&lt;&lt;TranslateLinks $spanish $ogTranslation $newTranslation&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="El valiente" tags="poem" position="725,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;set $spanish to [&quot;activismo&lt;br&gt;&lt;br&gt;&quot;, &quot;Envía tu risa como súplica al cielo.&lt;br&gt;&lt;br&gt;&quot;, &quot;Trae pan dulce a la protesta; &quot;, &quot;ofrézcaselo&lt;br&gt;a tus enemigos. Panendulza.&lt;br&gt;&lt;br&gt;&quot;, &quot;Espira fuego. &quot;, &quot;Ayuda. &quot;, &quot;Vuelve a casa&lt;br&gt;y prepara un baño.&lt;br&gt;&lt;br&gt;&quot;, &quot;Descánsate. No te olvides la almohada o&lt;br&gt;cobija suave. Sueña.&lt;br&gt;&lt;br&gt;&quot;, &quot;Levántate otra vez.&lt;br&gt;&lt;br&gt;&quot;, &quot;Sé gentil, queride. Trátate a ti mismo como si&lt;br&gt;seas alguien que mereciera el amor.&quot;, &quot;Hazlo hasta que lo creyeras.&lt;br&gt;&lt;br&gt;&quot;, &quot;Cuando tengas la opción de&lt;br&gt;construir or destruir, &quot;, &quot;construye.&lt;br&gt;&lt;br&gt;&quot;, &quot;Bebe vino. Bebe té.&lt;br&gt;&quot;, &quot;Descánsate. Sueña.&lt;br&gt;&lt;br&gt;&quot;, &quot;Ningún fracaso es final.&lt;br&gt;&quot;, &quot;Levántate otra vez.&quot;]&gt;&gt;
+
+&lt;&lt;set $ogTranslation to [&quot;El valiente&lt;br&gt;&lt;br&gt;&quot;, &quot;Don&#39;t laugh unless the joke reaches heaven.&lt;br&gt;&lt;br&gt;&quot;, &quot;Don&#39;t sheetcake, you maudlin mortician.&lt;br&gt;&quot;, &quot;Don&#39;t sugar yourself a shell.&lt;br&gt;&lt;br&gt;&quot;, &quot;Acknowledge your vertices, &quot;, &quot;your apex,&lt;br&gt;&quot;, &quot;your list of sins.&lt;br&gt;&lt;br&gt;&quot;, &quot;Peel back your eyelids and shun beds for&lt;br&gt;their resemblance to graves.&lt;br&gt;&lt;br&gt;&quot;, &quot;Stay woke.&lt;br&gt;&lt;br&gt;&quot;, &quot;Don&#39;t open your fist or the good will run out.&lt;br&gt;&quot;, &quot;Don&#39;t humanize the enemy or you&#39;ll harmonize with demons.&lt;br&gt;&lt;br&gt;&quot;, &quot;Put nothing into howling nothing&lt;br&gt;and &quot;, &quot;pull a dove from it.&lt;br&gt;&lt;br&gt;&quot;, &quot;Put your body through the thresher &quot;, &quot;and hope you birth something.&lt;br&gt;&lt;br&gt;&quot;, &quot;Put failure on your shoulders;&lt;br&gt;&quot;, &quot;not everyone has the luxury.&quot;]&gt;&gt;
+
+&lt;&lt;set $newTranslation to [&quot;activism&lt;br&gt;&lt;br&gt;&quot;, &quot;Send your laugh like a prayer to heaven.&lt;br&gt;&lt;br&gt;&quot;, &quot;Bring sweet bread to the protest;&quot;, &quot;offer it&lt;br&gt;to your enemies. Bread-sweeten them.&lt;br&gt;&lt;br&gt;&quot;, &quot;Breathe fire. &quot;, &quot;Help. &quot;, &quot;Return home&lt;br&gt;and prepare a bath.&lt;br&gt;&lt;br&gt;&quot;, &quot;Rest. Don&#39;t forget the pillow or&lt;br&gt;the soft blanket. Dream.&lt;br&gt;&lt;br&gt;&quot;, &quot;Rise once again.&lt;br&gt;&lt;br&gt;&quot;, &quot;Be gentle, dear. Treat yourself like&lt;br&gt;your someone who deserves love. &quot;, &quot;Do it until you believe it.&lt;br&gt;&lt;br&gt;&quot;, &quot;When you have the option to&lt;br&gt;create or destroy, &quot;, &quot;create.&lt;br&gt;&lt;br&gt;&quot;, &quot;Drink wine. Drink tea.&lt;br&gt;&quot;, &quot;Rest. Dream.&lt;br&gt;&lt;br&gt;&quot;, &quot;No failure is final.&lt;br&gt;&quot;, &quot;Rise once again.&quot;]&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+&lt;&lt;TranslateLinksRight $spanish $ogTranslation $newTranslation&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="Start" tags="" position="850,100">!Miss Translated
 [[Miss Translated|https://www.patreon.com/elisachavez]] is a meditation on culture, identity, and the things that get lost in translation by Elisa Chavez. To support this project, check out her [[Patreon.|https://www.patreon.com/elisachavez]]
 
 Poems adapted by [[Maddie|https://pieartystuff.tumblr.com]] with permission.
@@ -205,7 +213,7 @@ Poems adapted by [[Maddie|https://pieartystuff.tumblr.com]] with permission.
 !!Poems
 &lt;&lt;for _poem range $poems.sort()&gt;&gt;
     [[_poem]]
-&lt;&lt;/for&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="StoryInit" tags="" position="850,100">&lt;&lt;set $poems = Story.lookup(&quot;tags&quot;, &quot;poem&quot;).map(function (p) { return p.title; })&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="TranslateLinks" tags="widget nobr" position="975,100">&lt;&lt;widget &quot;TranslateLinks&quot;&gt;&gt;
+&lt;&lt;/for&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="StoryInit" tags="" position="975,100">&lt;&lt;set $poems = Story.lookup(&quot;tags&quot;, &quot;poem&quot;).map(function (p) { return p.title; })&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="TranslateLinks" tags="widget nobr" position="1100,100">&lt;&lt;widget &quot;TranslateLinks&quot;&gt;&gt;
 	&lt;&lt;if ($args[0].length === $args[1].length) &amp;&amp; ($args[1].length === $args[2].length)&gt;&gt;
 		&lt;div class=&quot;left; text-align: left&quot;&gt;
 		&lt;&lt;capture _esp, _ogtrans&gt;&gt;
@@ -221,6 +229,47 @@ Poems adapted by [[Maddie|https://pieartystuff.tumblr.com]] with permission.
 			&lt;&lt;/for&gt;&gt;
 			&lt;&lt;/capture&gt;&gt;
 		&lt;/div&gt;&lt;div class=&quot;right; text-align: right&quot;&gt;
+			&lt;&lt;capture _ogtransh, _newtransh&gt;&gt;
+			&lt;&lt;for _idx = 0; _idx &lt; $args[0].length; _idx++&gt;&gt;
+				&lt;&lt;set _ogtrans = &quot;ogtrans&quot; + _idx&gt;&gt;
+				&lt;&lt;set _ogtransh = &quot;#&quot; + _ogtrans&gt;&gt;
+				&lt;&lt;set _newtrans = &quot;newtrans&quot; + _idx&gt;&gt;
+				&lt;&lt;set _newtransh = &quot;#&quot; + _newtrans&gt;&gt;
+				&lt;span @id=&quot;_ogtrans&quot; class=&quot;hidden&quot;&gt;
+					&lt;&lt;link $args[1][_idx]&gt;&gt;
+						&lt;&lt;toggleclass _ogtransh &quot;gone&quot;&gt;&gt;
+						&lt;&lt;toggleclass _newtransh &quot;gone&quot;&gt;&gt;
+					&lt;&lt;/link&gt;&gt;
+				&lt;/span&gt;&lt;span @id=&quot;_newtrans&quot; class=&quot;gone&quot;&gt;
+					&lt;&lt;link $args[2][_idx]&gt;&gt;
+						&lt;&lt;toggleclass _ogtransh &quot;gone&quot;&gt;&gt;
+						&lt;&lt;toggleclass _newtransh &quot;gone&quot;&gt;&gt;
+					&lt;&lt;/link&gt;&gt;
+				&lt;/span&gt;
+			&lt;&lt;/for&gt;&gt;
+			&lt;&lt;/capture&gt;&gt;
+		&lt;/div&gt;
+	&lt;&lt;else&gt;&gt;
+		Error: All arrays must be the same length.  Array lengths were &lt;&lt;= $args[0].length&gt;&gt;, &lt;&lt;= $args[1].length&gt;&gt;, and &lt;&lt;$args[2].length&gt;&gt;
+	&lt;&lt;/if&gt;&gt;
+&lt;&lt;/widget&gt;&gt;
+
+&lt;&lt;widget &quot;TranslateLinksRight&quot;&gt;&gt;
+	&lt;&lt;if ($args[0].length === $args[1].length) &amp;&amp; ($args[1].length === $args[2].length)&gt;&gt;
+		&lt;div class=&quot;right&quot;&gt;
+		&lt;&lt;capture _esp, _ogtrans&gt;&gt;
+			&lt;&lt;for _idx = 0; _idx &lt; $args[0].length; _idx++&gt;&gt;
+				&lt;&lt;set _esp = &quot;#esp&quot; + _idx&gt;&gt;
+				&lt;&lt;set _ogtrans = &quot;#ogtrans&quot; + _idx&gt;&gt;
+				&lt;span @id=&quot;&#39;esp&#39;+_idx&quot;&gt;
+					&lt;&lt;link $args[0][_idx]&gt;&gt;
+						&lt;&lt;toggleclass _ogtrans &quot;hidden&quot;&gt;&gt;
+						&lt;&lt;toggleclass _esp &quot;hidden&quot;&gt;&gt;
+					&lt;&lt;/link&gt;&gt;
+				&lt;/span&gt;
+			&lt;&lt;/for&gt;&gt;
+			&lt;&lt;/capture&gt;&gt;
+		&lt;/div&gt;&lt;div class=&quot;left&quot;&gt;
 			&lt;&lt;capture _ogtransh, _newtransh&gt;&gt;
 			&lt;&lt;for _idx = 0; _idx &lt; $args[0].length; _idx++&gt;&gt;
 				&lt;&lt;set _ogtrans = &quot;ogtrans&quot; + _idx&gt;&gt;
