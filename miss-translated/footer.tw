@@ -1,4 +1,4 @@
 ::PassageFooter
 <<if tags().includes("poem")>>
-[[Home|Start]]
+<div class="footer">[[Home|Start]]</div>
 <</if>>
