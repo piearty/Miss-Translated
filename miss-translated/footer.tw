@@ -1,0 +1,4 @@
+::PassageFooter
+<<if tags().includes("poem")>>
+
+[[Home|Start]]<</if>>

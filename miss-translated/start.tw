@@ -1,13 +1,10 @@
+:: Start
 !Miss Translated
-
 [[Miss Translated|https://www.patreon.com/elisachavez]] is a meditation on culture, identity, and the things that get lost in translation by Elisa Chavez. To support this project, check out her [[Patreon.|https://www.patreon.com/elisachavez]]
 
-2 WEEKS AGO
-By ECC-POETRY
-SHARE / LIKE
-89
+Poems adapted by [[Maddie|https://pieartystuff.tumblr.com]] with permission.
 
 !!Poems
-<<for _poem range $poemslist>>
+<<for _poem range $poems.sort()>>
     [[_poem]]
 <</for>>

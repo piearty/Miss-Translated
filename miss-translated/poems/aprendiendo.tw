@@ -1,4 +1,4 @@
-:: Aprendiendo
+:: Aprendiendo [poem]
 <<nobr>><<set $spanish to ["Aprendiendo<br><br>", "Español es la única lengua del mundo<br>que no puedo aprender.<br>", "Como la belleza,<br>debería haber nacido con ella.<br><br>", "Debería haber seguido el hilo<br>a través del dédalo en mis huesos.<br><br>", "En alguna parte, la debería haber<br>descubrido como conquistadora."]>>
 
 <<set $ogTranslation to ["Learning<br><br>", "Spanish, the one language in the world<br>that I didn’t have to learn:<br>", "Her beauty<br>was born with me;<br><br>", "she’s strung like thread<br>through the fingers of my past.<br><br>", "A part of me, planted deep, beyond<br>the discovery of any conqueror."]>>
