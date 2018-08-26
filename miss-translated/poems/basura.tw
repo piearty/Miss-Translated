@@ -1,0 +1,7 @@
+::Basura [poem]
+<<nobr>>
+<<set $spanish to ["''Basura''<br><br>", "Me viste tirando<br>el chocolate,<br>pastel,<br>mitad de sandunche.<br><br>", "Claro, lo hice y lo haré otra vez,<br>", "esta princesa vacía<br>llena de vergüenza.<br>", "Mi hambre me manda a menguar<br>como apática luna, y dices,<br><br>", "\"¡Qué pródiga!\" <br>Claro.", "Tengo tan riqueza y todavia<br>insisto en la enfermedad."]>>
+
+<<set $ogTranslation to ["''Garbage''<br><br>", "You saw me throw away<br>the chocolate bar,<br>the cake,<br>the half-sandwich.<br><br>", "\"How prodigal!<br>", "Someone should tell princess<br>how poverty works;<br>what shame is;<br>", "what real hunger tastes like.\"<br><br>", "Of course, you're right.", "<br><br>What do I know?"]>>
+
+<<set $newTranslation to ["''Garbage''<br><br>", "You saw me throw away<br>the chocolate bar,<br>the cake,<br>the half-sandwich.<br><br>", "Well, I do it and I'l do it again,<br>", "This vain princess<br>full of shame.<br>", "My hunger orders me to wane<br>like the apathetic moon, and you say<br><br>", "\"How prodigal!\"<br> Of course.", "I have such wealth and still<br>insist on being sick."]>><</nobr>><<TranslateLinksRight $spanish $ogTranslation $newTranslation>>
