@@ -4,6 +4,8 @@
 
 Poems adapted and second translation provided by [[Maddie|https://pieartystuff.tumblr.com]] with permission.
 
+//A lot of the existing poems I didn't manage to adapt here, so I highly recommend you check out the rest of them by clicking the first link.//
+
 !!Poems
 <<for _poem range $poems.sort()>>
     [[_poem]]
