@@ -1,4 +1,4 @@
 ::PassageFooter
 <<if tags().includes("poem")>>
-
-[[Home|Start]]<</if>>
+[[Home|Start]]
+<</if>>

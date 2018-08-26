@@ -20,7 +20,7 @@ Miss-Translated
 }
 .right {
 	float: right;
-	width: 49%
+	width: 49%;
   	margin-bottom: 60px;
 	margin-top: 30px;
 }
@@ -66,6 +66,14 @@ div#hovercode:hover span#hover {
 .hidden a {
     color: transparent;
 }
+
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+</style>
 
 ::Story Javascript [script]
 UIBar.destroy();
