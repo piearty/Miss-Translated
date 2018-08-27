@@ -1,0 +1,9 @@
+::El vampiro / ICE [poem]
+<<nobr>>
+<<set $spanish to ["''El vampiro''<br><br>", "El vampiro torce la ley.<br>", "Como arroz, es blanqueado<br>de compasión. ", "No llega<br>cuando prometas,", "<br>y entra sin permiso.<br><br>", "¿Cuál depredador<br>se anuncia? ", "El sanguinario<br>caballero ", "lanza la voz;<br>", "dice que es policía,<br>vecino, amigo. ", "Roba<br>tus padres y les transforma<br>en criminales sobre el papel.<br><br>", "No es posible razonar<br>con el vampiro. ", "La única solución<br>para él es ", "clavar la estaca<br>en el corazon."]>>
+
+<<set $ogTranslation to ["''ICE''<br><br>", "The vampire loves the law.<br>", "Watch him count rice on the doorstep,<br>grain promises.", "He does not arrive<br>unless invited, ", "or at least,<br>he does not come in.<br><br>", "Like a predator,", "the sanguine<br>gentleman ", "announces himself.<br>He has no need to throw his voice.<br>", "The doctrine of his castle<br>is orderly as stone;<br>", "he takes nothing<br>he is not authorized to take.<br><br>", "The vampire is reasonable.", "<br>If you don't want him<br>to steal your blood, ", "simply<br>don't answer the door."]>>
+
+<<set $newTranslation to ["''The vampire''<br><br>", "The vampire twists the law.<br>", "Like rice, he is bleached<br>of compassion.", "He arrives<br>without warning,", "<br>and comes in without permission.<br><br>", "What kind of predator<br>announces himself? ", "The bloodthirsty<br>gentleman", "throws his voice;<br>", "says he's an officer,<br>neighbor, friend.", "He steals<br>your parents and transforms them<br>into criminals on paper.<br><br>", "It's not possible to reason<br>with the vampire. ", "The only solution<br>for him is to ", "drive the stake<br>into his heart."]>>
+<</nobr>>
+<<TranslateLinks $spanish $ogTranslation $newTranslation>>
