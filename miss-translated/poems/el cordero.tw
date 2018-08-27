@@ -1,6 +1,6 @@
 ::El Cordero / Roy Moore [poem]
 <<nobr>>
-<<set $spanish to ["''El Cordero''<br><br>", "La AP reporte que<br><br>", "la porcentaje de evangélicos<br>que apoyarían<br><br>", "a un político que comitiera<br>un acto inmortal<br>", "subió de 30% en 2011<br>a 72% en 2016.<br><br>", "Aquí está Baal.<br>", "Aquí está su ídolo falso:<br><br>", "Es lo que pasa cuando<br>se pone un hombre<br>en el lugar de díos."]>>
+<<set $spanish to ["''El Cordero''<br><br>", "La AP reporte que<br><br>", "la porcentaje de evangélicos<br>que apoyarían<br><br>", "a un político que cometiera<br>un acto inmortal<br>", "subió de 30% en 2011<br>a 72% en 2016.<br><br>", "Aquí está Baal.<br>", "Aquí está su ídolo falso:<br><br>", "Es lo que pasa cuando<br>se pone un hombre<br>en el lugar de dios."]>>
 
 <<set $ogTranslation to ["''Roy Moore''<br><br>", "Who let the cold air in?<br><br>", "Who went through the house<br>and inverted the crucifixes?<br><br>", "Whose hand unmakes<br>the good of the kitchen,<br>", "the strong stove songs and the<br>dove nourishment?<br><br>", "Who bridal-blots the bedspreads?<br>", "Where are my children?<br><br>", "My God, my god,<br>how can I cleave so close to you<br>and find myself so far away?"]>>
 
