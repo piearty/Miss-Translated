@@ -1,0 +1,9 @@
+:: El arpa [poem]
+<<nobr>>
+<<set $spanish to ["''El arpa''<br><br>", "¡Ay!<br>", "No me jales las cuerdas,<br>me duele."]>>
+
+<<set $ogTranslation to ["''The harp''<br><br>", "Ah!<br>", "Harp, you play such<br>pretty music."]>>
+
+<<set $newTranslation to ["''The harp''<br><br>", "Ow!<br>", "Don't pull at my strings,<br>it hurts."]>>
+<</nobr>>
+<<TranslateLinks $spanish $ogTranslation $newTranslation>>
