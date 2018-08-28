@@ -4,6 +4,6 @@
 
 <<set $ogTranslation to ["''Roy Moore''<br><br>", "Who let the cold air in?<br><br>", "Who went through the house<br>and inverted the crucifixes?<br><br>", "Whose hand unmakes<br>the good of the kitchen,<br>", "the strong stove songs and the<br>dove nourishment?<br><br>", "Who bridal-blots the bedspreads?<br>", "Where are my children?<br><br>", "My God, my god,<br>how can I cleave so close to you<br>and find myself so far away?"]>>
 
-<<set $newTranslation to ["''The Lamb''<br><br>", "AP reported that<br><br>", "the percentage of evangelicals<br>that would support<br><br>", "a politician who would commit<br>an immoral act<br>", "rose from 30% in 2011<br>to 72% in 2016.<br><br>", "Here is Baal.<br>", "Here is your false idol:<br><br>", "It is what happens when<br>you put a man<br>in the place of a god."]>>
+<<set $newTranslation to ["''The Lamb''<br><br>", "AP reported that<br><br>", "the percentage of evangelicals<br>that would support<br><br>", "a politician who committed<br>an immoral act<br>", "rose from 30% in 2011<br>to 72% in 2016.<br><br>", "Here is Baal.<br>", "Here is your false idol:<br><br>", "It is what happens when<br>you put a man<br>in the place of god."]>>
 <</nobr>>
 <<TranslateLinks $spanish $ogTranslation $newTranslation>>
